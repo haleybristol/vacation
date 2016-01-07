@@ -3,6 +3,7 @@
   <head>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <title>Hello world!</title>
   </head>
   <body>
@@ -13,13 +14,58 @@
           <li><a href="#">Accomodations</a></li>
           <li><a href="#">Activities</a></li>
         </ul>
-        <h3>Ribbit</h3>
+      <h3>Portland Travel Co.</h3>
       </header>
 
-      <div class="jumbotron">
-        <h1>Welcome to Thailand</h1>
-        <p class="lead">The vacation spot where all your dreams will come true.</p>
+
+
+    <div id="myCarousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <h1>Welcome to Thailand</h1>
+              <p class="lead">The vacation spot where all your dreams will come true.</p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+
+
+    <div class="container" class="row">
+      <div class="col-xs-4">
+        <h2>Sacred Spaces</h2>
+        <p>The celestial world is a close confidant in this Buddhist nation, and religious devotion is colourful and ubiquitous. Gleaming temples and golden Buddhas frame both the rural and modern landscape. Ancient banyan trees are ceremoniously wrapped in sacred cloth to honour the resident spirits, fortune-bringing shrines decorate humble homes as well as monumental malls, while garland-festooned dashboards ward off traffic accidents. Visitors can join the conversation through meditation retreats in Chiang Mai, religious festivals in northeastern Thailand, underground cave shrines in Kanchanaburi and Phetchaburi and hilltop temples in northern Thailand.</p>
+      </div>
+
+      <div class="col-xs-4">
+        <h2>A Bountiful Table</h2>
+        <p>Adored around the world, Thai cuisine expresses fundamental aspects of Thai culture: it is generous, warm, refreshing and relaxed. Each Thai dish relies on fresh, local ingredients – pungent lemongrass, searing chillies and plump seafood. A varied national menu is built around the four fundamental flavours: spicy, sweet, salty and sour. Roving appetites go on eating tours of Bangkok noodle shacks, seafood pavilions in Phuket and Burmese market stalls in Mae Sot. Cooking classes reveal the simplicity behind the seemingly complicated dishes and mastering the market is an important survival skill.</p>
+      </div>
+
+      <div class="col-xs-4">
+        <h2>Sandy Beaches</h2>
+        <p>With a long coastline (actually, two coastlines) and jungle-topped islands anchored in azure waters, Thailand is a tropical getaway for the hedonist and the hermit, the prince and the pauper. This paradise offers a varied menu: playing in the gentle surf of Ko Lipe, diving with whale sharks off Ko Tao, scaling the sea cliffs of Krabi, kiteboarding in Hua Hin, partying on Ko Phi Phi, recuperating at a health resort on Ko Samui and feasting on the beach wherever sand meets sea.</p>
+      </div>
+    </div>
+
+    <div class="container pull-center">
+      <img class="img-responsive" src="http://www.vacationsandtravelmag.com/ftproot/images/thai3.jpg" alt="Picture Islands">
+
+    </div>
     </body>
 
 
