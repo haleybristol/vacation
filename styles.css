@@ -30,3 +30,8 @@ img {
   margin-right: auto;
   display: block;
 }
+
+body {
+  background-color: lightgray;
+
+}
