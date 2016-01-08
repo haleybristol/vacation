@@ -35,3 +35,6 @@ body {
   background-color: lightgray;
 
 }
+.col-xs-4 {
+  border-color: black;
+}
